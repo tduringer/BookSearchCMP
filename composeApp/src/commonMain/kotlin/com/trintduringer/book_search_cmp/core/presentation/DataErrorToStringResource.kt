@@ -1,6 +1,12 @@
 package com.trintduringer.book_search_cmp.core.presentation
 
 import booksearchcmp.composeapp.generated.resources.Res
+import booksearchcmp.composeapp.generated.resources.error_disk_full
+import booksearchcmp.composeapp.generated.resources.error_no_internet
+import booksearchcmp.composeapp.generated.resources.error_request_timeout
+import booksearchcmp.composeapp.generated.resources.error_serialization
+import booksearchcmp.composeapp.generated.resources.error_too_many_requests
+import booksearchcmp.composeapp.generated.resources.error_unknown
 import com.trintduringer.book_search_cmp.core.domain.DataError
 
 fun DataError.toUiText(): UiText {
