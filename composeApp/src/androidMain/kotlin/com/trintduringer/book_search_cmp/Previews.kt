@@ -9,9 +9,11 @@ import androidx.compose.ui.graphics.Color
 import com.trintduringer.book_search_cmp.book.presentation.book_list.components.BookSearchBar
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-@Preview
+
+
+@androidx.compose.ui.tooling.preview.Preview
 @Composable
-private fun BookSearchBarPreview() {
+fun BookSearchBarPreview() {
     BookSearchBar(
         searchQuery = "Kotlin",
         onSearchQueryChange = {},
@@ -20,4 +22,10 @@ private fun BookSearchBarPreview() {
             .fillMaxWidth()
             .background(Color.White)
     )
+}
+
+@androidx.compose.ui.tooling.preview.Preview
+@Composable
+fun AppAndroidPreview2() {
+    App()
 }
