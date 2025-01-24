@@ -58,7 +58,9 @@ fun BookListItem(
             modifier = Modifier
                 .padding(16.dp)
                 .fillMaxWidth()
-                .height(IntrinsicSize.Min)
+                .height(IntrinsicSize.Min),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             Box(
                 modifier = Modifier
@@ -123,8 +125,7 @@ fun BookListItem(
                         Text(
                             text = "${round(rating * 10) / 10.0}",
                             style = MaterialTheme.typography.bodyMedium,
-
-                            )
+                        )
                         Icon(
                             imageVector = Icons.Default.Star,
                             contentDescription = null,
