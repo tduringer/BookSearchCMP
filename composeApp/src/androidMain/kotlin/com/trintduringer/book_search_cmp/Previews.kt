@@ -52,8 +52,8 @@ fun BookListPreview(modifier: Modifier = Modifier) {
     )
 }
 
-@androidx.compose.ui.tooling.preview.Preview
-@Composable
-fun AppAndroidPreview2() {
-    App()
-}
+//@androidx.compose.ui.tooling.preview.Preview
+//@Composable
+//fun AppAndroidPreview2() {
+//    App()
+//}
